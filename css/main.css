@@ -475,7 +475,6 @@ img {
   .header__container {
     max-width: 689px;
     width: 100%;
-    background-color: red;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -489,7 +488,6 @@ img {
   .header__container {
     max-width: 327px;
     width: 100%;
-    background-color: yellow;
     padding-left: 25px;
     padding-right: 25px;
   }
