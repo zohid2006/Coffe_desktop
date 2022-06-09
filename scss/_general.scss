@@ -8,18 +8,20 @@ html {
   box-sizing: inherit;
 }
 
-body {
+body{
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  overflow-x: hidden;
+  background: #F2F2F2;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+main{
+  flex-grow: 1;
+}
+
+img{
+  vertical-align: middle;
 }

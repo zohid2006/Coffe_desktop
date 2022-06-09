@@ -1,0 +1,64 @@
+.c-hero {
+
+	&__section {
+            margin-bottom: 177px;
+	}
+
+	&__container {
+            width: 1280px;
+            height: 450px;
+            background-image: url("./../image/cr-mgi.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding: 134px 0 134px 85px;
+	}
+
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) { 
+        
+            &__container {
+                  background-image: url("./../image/cr-bgi@2.jpg");
+            }
+      }
+
+	&__wrapper {
+            width: 486px;
+	}
+
+	&__heading {
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FEFCF7;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+	}
+
+      &__text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin: 0;
+            padding: 0;
+      }
+}
+
+.howwork--for-create {
+      background-color: #2C343E;
+      padding: 90px 150px 107px 85px;
+}

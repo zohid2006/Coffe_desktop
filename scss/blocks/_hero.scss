@@ -1,0 +1,158 @@
+.hero {
+
+    &__section {
+        margin-bottom: 136px;
+    }
+
+    &__container {
+        background-image: url("./../image/header-bgi.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 177px 0 116px 85px;
+        border-radius: 10px;
+    }
+
+    @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx) { 
+          
+              &__container {
+                    background-image: url("./../image/header-bgi@2x.jpg");
+                    }
+        }
+
+    &__right {
+        width: 493px;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        width: 445px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 55px;
+    }
+
+    &__link-wrapper {
+        display: block;
+    }
+
+    &__link {
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .hero {
+
+        &__section {
+        }
+    
+        &__container {
+            max-width: 689px;
+            width: 100%;
+            padding: 104px 233px 104px 58px;
+        }
+
+    
+        &__right {
+            max-width: 398px;
+            width: 100%;
+        }
+    
+        &__heading {
+            max-width: 398px;
+            width: 100%;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+        }
+    
+        &__text {
+            max-width: 398px;
+        }
+    
+        &__link-wrapper {
+        }
+    
+        &__link {
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        max-width: 327px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero {
+
+        &__section {
+            margin-bottom: 120px;
+        }
+    
+        &__container {
+            max-width: 327px;
+            width: 100%;
+            background-size: cover;
+            padding: 100px 24px;
+            margin: 0;
+        }
+
+    
+        &__right {
+            max-width: 279px;
+            width: 100%;
+            padding: 0;
+        }
+    
+        &__heading {
+            font-size: 40px;
+            line-height: 40px;
+            margin-bottom: 25px;
+        }
+    
+        &__text {
+            max-width: 279px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 40px;
+        }
+    
+        &__link-wrapper {
+        }
+    
+        &__link {
+        }
+    }
+}
