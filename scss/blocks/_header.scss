@@ -1,4 +1,14 @@
+main {
+    padding-top: 120px;
+}
+
 .header {
+    background-color: #F2F2F2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
 
     &__section {
     }
@@ -53,13 +63,6 @@
     .header {
         &__container {
             max-width: 689px;
-            width: 100%;
-            padding-left: 40px;
-            padding-right: 40px;
-        }
-
-        &__list {
-            max-width: 283px;
             width: 100%;
         }
     }

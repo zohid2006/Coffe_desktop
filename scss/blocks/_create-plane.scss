@@ -58,7 +58,289 @@
       }
 }
 
+
+.howwork {
+
+      &__section {
+            margin-bottom: 160px;
+      }
+
+      &__container {
+      }
+
+      &__heading {
+            display: none;
+      }
+
+      &__list--active {
+            margin: 0;
+      }
+
+      &__item {
+      }
+
+      &__step--img::before {
+            background-color: #2C343E;
+      }
+
+      &__item-wrapper {
+      }
+
+      &__item-span {
+      }
+
+      &__item--heading {
+            color: #FEFCF7;
+      }
+
+      &__item--text {
+            color: #FEFCF7;
+      }
+}
+
 .howwork--for-create {
       background-color: #2C343E;
       padding: 90px 150px 107px 85px;
+      margin: 0;
+}
+
+
+.order {
+
+      &__section {
+            margin-bottom: 170px;
+      }
+      
+      &__container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-left: 85px;
+            margin-right: 85px;
+      }
+      
+      &__left {
+            top: 20px;
+            position: sticky;
+            max-width: 255px;
+            width: 100%;
+            padding-bottom: 380px;
+      }
+      
+      &__left-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+      }
+
+      &__left-item {
+            display: flex;
+            align-items: center;
+            opacity: 0.4;
+            padding-bottom: 25px;
+      }
+
+      &__left-item:not(:last-child) {
+            border-bottom: 1px solid #83888F;
+            margin-bottom: 25px;
+      }
+
+      &__active--item {
+            opacity: 1;
+      }
+
+      &__left-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+      }
+
+      &__left-number {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin: 0;
+            padding: 0;
+            margin-right: 25px;
+      }
+
+      &__active--number {
+            color: #0E8784;
+      }
+
+      &__left-text {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #333D4B;
+            margin: 0;
+            padding: 0;
+      }
+
+	&__right {
+	}
+
+	&__rt-list {
+            max-width: 730px;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+	}
+
+	&__rt-item {
+            max-width: 730px;
+            width: 100%;
+            margin-bottom: 88px;
+	}
+
+	&__rt-top {
+            display: flex; 
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 56px;
+	}
+
+	&__rt-heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #83888F;
+            margin: 0;
+            padding: 0;
+            margin-right: 10px;
+	}
+
+	&__rt-btn {
+            display: inline-block;
+            border: none;
+            background: none;
+            outline: none;
+            background-image: url("./../image/coffe-how-btn.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            transform: rotate(180deg);
+            width: 18px;
+            height: 12px;
+	}
+
+      &__rt-item--open &__rt-bottom {
+            display: flex;
+      }
+
+      &__rt-item--open &__rt-btn {
+            transform: rotate(0deg);
+      }
+
+	&__rt-bottom {
+            display: none;
+            align-items: stretch;
+            justify-content: space-between;
+	}
+
+	&__label {
+            cursor: pointer;
+            max-width: 228px;
+            width: 100%;
+            min-height: 250px;
+            
+            & + & {
+                  margin-left: 10px;
+            }
+	}
+      
+      &__input {
+            display: none;
+
+            &:checked + &-wrapper {
+
+                  background-color: #0E8784;
+                  color: #FEFCF7;
+            }
+      }
+      
+	&__input-wrapper {
+            height: 100%;
+            background-color: #F4F1EB;
+            padding: 32px 28px;
+            border-radius: 8px;
+            color: #333D4B;
+
+            &:hover{
+                  background-color: #FDD6BA;
+            }
+	}
+      
+	&__input-heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 25px;
+	}
+
+	&__input-text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            margin: 0;
+            padding: 0;
+	}
+
+      &__botttom {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+      }
+
+	&__result {
+            padding: 27px 64px;
+            background-color: #2C343E;
+            margin-bottom: 40px;
+	}
+
+	&__result-heading {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 8px;
+	}
+
+	&__result-text {
+            max-width: 600px;
+            width: 100%;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+	}
+
+	&__result-span {
+            color: #0E8784;
+	}
 }

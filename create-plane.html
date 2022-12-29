@@ -45,7 +45,8 @@
                         <h2 class="c-hero__heading">Create a plan</h2>
 
                         <p class="c-hero__text">
-                            Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.
+                            Build a subscription plan that best fits your needs. We offer an assortment of the best
+                            artisan coffees from around the globe delivered fresh to your door.
                         </p>
                     </div>
                 </div>
@@ -56,16 +57,16 @@
             <div class="container">
                 <div class="howwork__container howwork--for-create">
                     <h2 class="howwork__heading">How it works</h2>
-                    <ul class="howwork__list">
+                    <ul class="howwork__list howwork__list--active">
                         <li class="howwork__item">
-                            <div class="howwork__step-img"></div>
+                            <div class="howwork__step-img howwork__step--img"></div>
 
                             <div class="howwork__item-wrapper">
                                 <span class="howwork__item-span">01</span>
 
-                                <h3 class="howwork__item-heading">Pick your coffee</h3>
+                                <h3 class="howwork__item-heading howwork__item--heading">Pick your coffee</h3>
 
-                                <p class="howwork__item-text">
+                                <p class="howwork__item-text howwork__item--text">
                                     Select from our evolving range of artisan coffees. Our beans are ethically sourced
                                     and we pay fair prices for them. There are new coffees in all profiles every month
                                     for you to try out.
@@ -74,14 +75,14 @@
                         </li>
 
                         <li class="howwork__item">
-                            <div class="howwork__step-img"></div>
+                            <div class="howwork__step-img howwork__step--img"></div>
 
                             <div class="howwork__item-wrapper">
                                 <span class="howwork__item-span">02</span>
 
-                                <h3 class="howwork__item-heading">Choose the frequency</h3>
+                                <h3 class="howwork__item-heading howwork__item--heading">Choose the frequency</h3>
 
-                                <p class="howwork__item-text">
+                                <p class="howwork__item-text howwork__item--text">
                                     Customize your order frequency, quantity, even your roast style and grind type.
                                     Pause, skip or cancel your subscription with no commitment through our online
                                     portal.
@@ -90,14 +91,14 @@
                         </li>
 
                         <li class="howwork__item">
-                            <div class="howwork__step-img"></div>
+                            <div class="howwork__step-img howwork__step--img"></div>
 
                             <div class="howwork__item-wrapper">
                                 <span class="howwork__item-span">03</span>
 
-                                <h3 class="howwork__item-heading">Receive and enjoy!</h3>
+                                <h3 class="howwork__item-heading howwork__item--heading">Receive and enjoy!</h3>
 
-                                <p class="howwork__item-text">
+                                <p class="howwork__item-text howwork__item--text">
                                     We ship your package within 48 hours, freshly roasted. Sit back and enjoy
                                     award-winning world-class coffees curated to provide a distinct tasting experience.
                                 </p>
@@ -107,6 +108,302 @@
                 </div>
             </div>
         </section>
+
+        <section class="order__section">
+            <div class="container">
+                <div class="order__container">
+                    <div class="order__left">
+                        <ul class="order__left-list">
+                            <li class="order__left-item">
+                                <a class="order__left-link" href="#Preferences">
+                                    <p class="order__left-number order__active--number">01</p>
+
+                                    <p class="order__left-text">Preferences</p>
+                                </a>
+                            </li>
+
+                            <li class="order__left-item">
+                                <a class="order__left-link" href="#Bean Type">
+
+                                    <p class="order__left-number">02</p>
+
+                                    <p class="order__left-text">Bean Type</p>
+                                </a>
+                            </li>
+
+                            <li class="order__left-item">
+                                <a class="order__left-link" href="#Quantity">
+                                    <p class="order__left-number">03</p>
+
+                                    <p class="order__left-text">Quantity</p>
+                                </a>
+                            </li>
+
+                            <li class="order__left-item">
+                                <a class="order__left-link" href="#Grind Option">
+                                    <p class="order__left-number">04</p>
+
+                                    <p class="order__left-text">Grind Option</p>
+                                </a>
+                            </li>
+
+                            <li class="order__left-item order__active--item">
+                                <a class="order__left-link" href="#Deliveries">
+                                    <p class="order__left-number">05</p>
+
+                                    <p class="order__left-text">Deliveries</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="order__right">
+                        <ul class="order__rt-list">
+                            <li id="Preferences" class="order__rt-item order__rt-item--open">
+                                <div class="order__rt-top">
+                                    <h2 class="order__rt-heading">How do you drink your coffee?</h2>
+
+                                    <button class="order__rt-btn"></button>
+                                </div>
+
+                                <div class="order__rt-bottom">
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Capsule</h3>
+
+                                            <p class="order__input-text">
+                                                Compatible with Nespresso systems and similar brewers</p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Filter</h3>
+
+                                            <p class="order__input-text">
+                                                For pour over or drip methods like Aeropress, Chemex, and V60
+                                            </p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Espresso</h3>
+
+                                            <p class="order__input-text">
+                                                Dense and finely ground beans for an intense, flavorful experience</p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li id="Bean Type" class="order__rt-item order__rt-item--open">
+                                <div class="order__rt-top">
+                                    <h2 class="order__rt-heading">What type of coffee?</h2>
+
+                                    <button class="order__rt-btn"></button>
+                                </div>
+
+                                <div class="order__rt-bottom">
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Single Origin</h3>
+
+                                            <p class="order__input-text">
+                                                Distinct, high quality coffee from a specific family-owned farm</p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Decaf</h3>
+
+                                            <p class="order__input-text">
+                                                Just like regular coffee, except the caffeine has been removed
+                                            </p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Blended</h3>
+
+                                            <p class="order__input-text">
+                                                Combination of two or three dark roasted beans of organic coffees</p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li id="Quantity" class="order__rt-item order__rt-item--open">
+                                <div class="order__rt-top">
+                                    <h2 class="order__rt-heading">How much would you like?</h2>
+
+                                    <button class="order__rt-btn"></button>
+                                </div>
+
+                                <div class="order__rt-bottom">
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">250g</h3>
+
+                                            <p class="order__input-text">
+                                                Perfect for the solo drinker. Yields about 12 delicious cups.
+                                            </p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">500g</h3>
+
+                                            <p class="order__input-text">
+                                                Perfect option for a couple. Yields about 40 delectable cups.
+                                            </p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">1000g</h3>
+
+                                            <p class="order__input-text">
+                                                Perfect for offices and events. Yields about 90 delightful cups.
+                                            </p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li id="Grind Option" class="order__rt-item order__rt-item--open">
+                                <div class="order__rt-top">
+                                    <h2 class="order__rt-heading">Want us to grind them?</h2>
+
+                                    <button class="order__rt-btn"></button>
+                                </div>
+
+                                <div class="order__rt-bottom">
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Wholebean</h3>
+
+                                            <p class="order__input-text">
+                                                Best choice if you cherish the full sensory experience</p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Filter</h3>
+
+                                            <p class="order__input-text">
+                                                For drip or pour-over coffee methods such as V60 or Aeropress
+                                            </p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Cafetiére</h3>
+
+                                            <p class="order__input-text">
+                                                Course ground beans specially suited for french press coffee</p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li id="Deliveries" class="order__rt-item order__rt-item--open">
+                                <div class="order__rt-top">
+                                    <h2 class="order__rt-heading">How often should we deliver?</h2>
+
+                                    <button class="order__rt-btn"></button>
+                                </div>
+
+                                <div class="order__rt-bottom">
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Every week</h3>
+
+                                            <p class="order__input-text">
+                                                $7.20 per shipment. Includes free first-class shipping.</p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Every 2 weeks</h3>
+
+                                            <p class="order__input-text">
+                                                $9.60 per shipment. Includes free priority shipping.
+                                            </p>
+                                        </div>
+                                    </label>
+
+                                    <label class="order__label">
+                                        <input class="order__input" type="radio" name="coffe-how">
+
+                                        <div class="order__input-wrapper">
+                                            <h3 class="order__input-heading">Every month</h3>
+
+                                            <p class="order__input-text">
+                                                $12.00 per shipment. Includes free priority shipping.</p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="order__botttom">
+                            <div class="order__result">
+                                <h4 class="order__result-heading">Order Summary</h4>
+
+                                <p class="order__result-text">
+                                    “I drink my coffee as
+                                    <span class="order__result-span">Filter</span>, with a
+                                    <span class="order__result-span">Decaf</span> type of bean.
+                                    <span class="order__result-span">250g</span> ground ala
+                                    <span class="order__result-span">Cafetiére</span>, sent to me
+                                    <span class="order__result-span">Every Week</span>.”
+                                </p>
+                            </div>
+
+                            <a class="side-btn order__side-btn" href="#">Create my plan!</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
     <footer class="footer">
@@ -115,37 +412,41 @@
                 <div class="footer__container">
                     <div class="footer__left">
                         <a class="header__logo-link" href="#">
-                            <img class="footer__logo-img" src="./image/footer__logo.svg" alt="side logo" width="236" height="26">
+                            <img class="footer__logo-img" src="./image/footer__logo.svg" alt="side logo" width="236"
+                                height="26">
                         </a>
-    
+
                         <nav class="footer__nav">
                             <ul class="footer__list">
                                 <li class="footer__item">
                                     <a class="footer__left-link" href="#">HOME</a>
                                 </li>
-    
+
                                 <li class="footer__item">
                                     <a class="footer__left-link" href="#">ABOUT US</a>
                                 </li>
-    
+
                                 <li class="footer__item">
                                     <a class="footer__left-link" href="#">Create your plan</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-    
+
                     <div class="footer__right">
                         <a class="footer__right-link" href="#">
-                            <img class="footer__right-img" src="./image/facebook.svg" alt="facebook link" width="24" height="24">
+                            <img class="footer__right-img" src="./image/facebook.svg" alt="facebook link" width="24"
+                                height="24">
                         </a>
-    
+
                         <a class="footer__right-link" href="#">
-                            <img class="footer__right-img" src="./image/twitter.svg" alt="twitter link" width="24" height="20">
+                            <img class="footer__right-img" src="./image/twitter.svg" alt="twitter link" width="24"
+                                height="20">
                         </a>
-    
+
                         <a class="footer__right-link" href="#">
-                            <img class="footer__right-img" src="./image/Shape.svg" alt="instagram link" width="24" height="24">
+                            <img class="footer__right-img" src="./image/Shape.svg" alt="instagram link" width="24"
+                                height="24">
                         </a>
                     </div>
                 </div>
